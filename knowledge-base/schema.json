@@ -1,0 +1,304 @@
+{
+  "成员": [
+    {
+      "field_name": "ID",
+      "type": 1
+    },
+    {
+      "field_name": "名称",
+      "type": 1
+    },
+    {
+      "field_name": "别名",
+      "type": 1
+    }
+  ],
+  "资料": [
+    {
+      "field_name": "标题",
+      "type": 1
+    },
+    {
+      "field_name": "内容",
+      "type": 1
+    },
+    {
+      "field_name": "分类",
+      "type": 3,
+      "property": {
+        "options": [
+          {
+            "name": "个人信息"
+          },
+          {
+            "name": "工作"
+          },
+          {
+            "name": "学习"
+          },
+          {
+            "name": "生活"
+          },
+          {
+            "name": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "field_name": "标签",
+      "type": 1
+    },
+    {
+      "field_name": "来源",
+      "type": 1
+    },
+    {
+      "field_name": "更新时间",
+      "type": 5,
+      "property": {
+        "date_formatter": "yyyy/MM/dd HH:mm",
+        "auto_fill": false
+      }
+    }
+  ],
+  "联系人": [
+    {
+      "field_name": "姓名",
+      "type": 1
+    },
+    {
+      "field_name": "关系",
+      "type": 3,
+      "property": {
+        "options": [
+          {
+            "name": "同事"
+          },
+          {
+            "name": "客户"
+          },
+          {
+            "name": "朋友"
+          },
+          {
+            "name": "家人"
+          },
+          {
+            "name": "合作方"
+          },
+          {
+            "name": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "field_name": "公司/身份",
+      "type": 1
+    },
+    {
+      "field_name": "联系方式",
+      "type": 1
+    },
+    {
+      "field_name": "备注",
+      "type": 1
+    },
+    {
+      "field_name": "更新时间",
+      "type": 5,
+      "property": {
+        "date_formatter": "yyyy/MM/dd HH:mm",
+        "auto_fill": false
+      }
+    }
+  ],
+  "项目": [
+    {
+      "field_name": "名称",
+      "type": 1
+    },
+    {
+      "field_name": "状态",
+      "type": 3,
+      "property": {
+        "options": [
+          {
+            "name": "进行中"
+          },
+          {
+            "name": "已完成"
+          },
+          {
+            "name": "暂停"
+          },
+          {
+            "name": "想法"
+          }
+        ]
+      }
+    },
+    {
+      "field_name": "进展",
+      "type": 1
+    },
+    {
+      "field_name": "下一步",
+      "type": 1
+    },
+    {
+      "field_name": "更新时间",
+      "type": 5,
+      "property": {
+        "date_formatter": "yyyy/MM/dd HH:mm",
+        "auto_fill": false
+      }
+    }
+  ],
+  "任务": [
+    {
+      "field_name": "编号",
+      "type": 1
+    },
+    {
+      "field_name": "标题",
+      "type": 1
+    },
+    {
+      "field_name": "详情",
+      "type": 1
+    },
+    {
+      "field_name": "负责人",
+      "type": 3,
+      "member_options": true
+    },
+    {
+      "field_name": "创建人",
+      "type": 3,
+      "member_options": true
+    },
+    {
+      "field_name": "状态",
+      "type": 3,
+      "property": {
+        "options": [
+          {
+            "name": "待办"
+          },
+          {
+            "name": "进行中"
+          },
+          {
+            "name": "已完成"
+          },
+          {
+            "name": "受阻"
+          }
+        ]
+      }
+    },
+    {
+      "field_name": "截止日期",
+      "type": 5,
+      "property": {
+        "date_formatter": "yyyy/MM/dd",
+        "auto_fill": false
+      }
+    },
+    {
+      "field_name": "备注",
+      "type": 1
+    },
+    {
+      "field_name": "创建时间",
+      "type": 5,
+      "property": {
+        "date_formatter": "yyyy/MM/dd HH:mm",
+        "auto_fill": false
+      }
+    },
+    {
+      "field_name": "更新时间",
+      "type": 5,
+      "property": {
+        "date_formatter": "yyyy/MM/dd HH:mm",
+        "auto_fill": false
+      }
+    }
+  ],
+  "进度": [
+    {
+      "field_name": "成员",
+      "type": 3,
+      "member_options": true
+    },
+    {
+      "field_name": "日期",
+      "type": 5,
+      "property": {
+        "date_formatter": "yyyy/MM/dd",
+        "auto_fill": false
+      }
+    },
+    {
+      "field_name": "内容",
+      "type": 1
+    },
+    {
+      "field_name": "记录时间",
+      "type": 5,
+      "property": {
+        "date_formatter": "yyyy/MM/dd HH:mm",
+        "auto_fill": false
+      }
+    }
+  ],
+  "通知": [
+    {
+      "field_name": "收件人",
+      "type": 3,
+      "member_options": true
+    },
+    {
+      "field_name": "发件人",
+      "type": 3,
+      "member_options": true
+    },
+    {
+      "field_name": "内容",
+      "type": 1
+    },
+    {
+      "field_name": "创建时间",
+      "type": 5,
+      "property": {
+        "date_formatter": "yyyy/MM/dd HH:mm",
+        "auto_fill": false
+      }
+    },
+    {
+      "field_name": "送达时间",
+      "type": 5,
+      "property": {
+        "date_formatter": "yyyy/MM/dd HH:mm",
+        "auto_fill": false
+      }
+    },
+    {
+      "field_name": "状态",
+      "type": 3,
+      "property": {
+        "options": [
+          {
+            "name": "待发送"
+          },
+          {
+            "name": "已送达"
+          }
+        ]
+      }
+    }
+  ]
+}
